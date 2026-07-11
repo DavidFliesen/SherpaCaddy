@@ -4,31 +4,29 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="theme-color" content="#123d2d" />
-  <meta name="description" content="Sherpa Caddy — a beginner-friendly golf companion that helps you plan, play, learn, and save rounds privately." />
+  <meta name="description" content="Sherpa Caddie — a beginner-friendly golf companion that helps you plan, play, learn, and save rounds privately." />
   <link rel="manifest" href="manifest.webmanifest" />
-  <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
+  <link rel="icon" href="icons/favicon.png" type="image/png" />
   <link rel="apple-touch-icon" href="icons/icon-192.png" />
   <link rel="stylesheet" href="styles.css" />
-  <title>Sherpa Caddy</title>
+  <title>Sherpa Caddie</title>
 </head>
 <body>
   <header class="topbar">
     <div class="brand">
-      <div class="brand-mark" aria-hidden="true">⛳</div>
-      <div><strong>Sherpa Caddy</strong><span>Your guide from first tee to final putt</span></div>
+      <img class="brand-logo" src="assets/sherpa-caddie-logo.jpg" alt="Sherpa Caddie" />
     </div>
     <button id="installBtn" class="ghost hidden">Install</button>
   </header>
 
   <main>
-    <section class="hero">
+    <section class="welcome-card">
+      <img class="welcome-mark" src="icons/icon-192.png" alt="" aria-hidden="true" />
       <div>
-        <p class="eyebrow">Beginner-friendly golf companion</p>
-        <h1>Play with confidence.<br><span>Learn as you go.</span></h1>
-        <p class="hero-copy">Find a course, check playing conditions, keep score, ask simple questions, and save every round on your own device.</p>
-      </div>
-      <div class="hero-card">
-        <span class="status-dot"></span><span id="appStatus">Ready for your next round</span>
+        <p class="eyebrow">Your golf guide, coach, and caddie</p>
+        <h1>Ready for your next round?</h1>
+        <p>Find a course, check conditions, keep score, and ask Sherpa for clear guidance along the way.</p>
+        <div class="app-status"><span class="status-dot"></span><span id="appStatus">Ready when you are</span></div>
       </div>
     </section>
 
@@ -56,7 +54,7 @@
       </div>
 
       <article class="sherpa-panel">
-        <div class="sherpa-avatar">🗻</div>
+        <div class="sherpa-avatar"><img src="icons/icon-192.png" alt="Sherpa guide icon" /></div>
         <div class="sherpa-copy">
           <span class="eyebrow">Ask Sherpa</span>
           <h2 id="answerTitle">What can I help with?</h2>
