@@ -1,32 +1,117 @@
-# Sherpa Caddy PWA
+# Sherpa Caddy
+### Version 0.1.0 Alpha
+**An AI-Powered Golf Companion for Every Golfer**
 
-A static, beginner-friendly golf companion designed for GitHub Pages.
+**Progressive Web App (PWA):**
+https://davidfliesen.github.io/SherpaCaddy
 
-## Included
-- Search OpenGolfAPI courses
-- Attempt nearby-course lookup using browser location
-- Open-Meteo course weather
-- Push-to-talk questions and spoken answers where browser-supported
-- Local round scoring and notes
-- JSON export/import
-- Offline app shell and installable PWA manifest
+---
 
-## Run locally
-Service workers require HTTP rather than opening `index.html` directly.
+## Overview
 
-```bash
-python -m http.server 8000
-```
-Then open `http://localhost:8000`.
+Sherpa Caddy is an AI-powered golf companion designed for everyday golfers—especially beginners and recreational players.
 
-## Publish on GitHub Pages
-1. Create a GitHub repository.
-2. Upload these files to the repository root.
-3. In **Settings → Pages**, deploy from the main branch/root.
+Instead of overwhelming users with complicated statistics and professional terminology, Sherpa Caddy combines the knowledge of a **caddy**, the encouragement of a **coach**, and the guidance of a **course expert** into one easy-to-use application.
 
-## Important limitations
-- There is no backend or paid AI model in this version. Sherpa answers from an expandable local knowledge library.
-- A true always-listening “Hey Sherpa” wake word is not dependable in mobile PWAs; this version uses push-to-talk.
-- Browser speech-recognition support varies, particularly for installed PWAs on iOS.
-- OpenGolfAPI is community-maintained, so field names and coverage can vary. The adapter in `app.js` accepts several common response shapes.
-- Review the current service terms before commercial deployment.
+Whether it's your first round or your hundredth, Sherpa Caddy helps golfers prepare, play, learn, and improve through simple, conversational guidance before, during, and after every round.
+
+---
+
+# Current Version
+
+**Version:** 0.1.0 Alpha
+
+**Status:** 🚧 Early Development
+
+**Current Focus**
+
+- Initial PWA framework
+- Local data storage
+- Course search
+- Weather integration
+- Voice interface
+- Scorekeeping
+
+---
+
+# Features
+
+- 🏌️ Beginner-Friendly Guidance
+- 📍 Smart Course Selection
+- 🌤 Weather-Aware Play
+- 🎙 AI Voice Assistant
+- ⛳ Simple Scorekeeping
+- 💾 Privacy First
+- 📤 Export / Import
+- 📱 Progressive Web App (PWA)
+
+---
+
+# Philosophy
+
+Golf should be welcoming—not intimidating.
+
+Sherpa Caddy combines the knowledge of a caddy, the encouragement of a coach, and the guidance of a course expert into one friendly AI companion designed for golfers of every skill level.
+
+---
+
+# Technology
+
+Current:
+- Progressive Web App (PWA)
+- HTML5
+- CSS3
+- JavaScript
+- Local Storage
+- Open Golf API
+- Open-Meteo Weather API
+- Web Speech API
+
+Future:
+- Python
+- FastAPI
+- AI Services
+- Optional Cloud Sync
+
+---
+
+# Roadmap
+
+## Version 0.1
+- Initial PWA
+- Local Storage
+- Weather
+- Voice
+- Scorekeeping
+
+## Version 1.0
+Full public release.
+
+---
+
+# Future Vision
+
+Future capabilities include AI-powered course strategy, personalized coaching, club recommendations, handicap tracking, analytics, tournament mode, wearable integration, optional cloud synchronization, community features, and augmented reality course assistance.
+
+---
+
+# Changelog
+
+## Version 0.1.0 Alpha
+
+- Initial project created
+- Initial PWA
+- README
+- GitHub repository
+
+---
+
+## License
+
+MIT License
+
+---
+
+**Created by David Fliesen**
+
+© 2026
